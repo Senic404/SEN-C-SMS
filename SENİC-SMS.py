@@ -3,7 +3,9 @@
 # -*- coding: utf-8 -*-
 
 import subprocess, sys, os
-
+os.system("pkg install figlet")
+os.system("Clear")
+os.system("figlet senic sms")
 try:
     import requests, urllib3, uuid
 except ImportError:
@@ -857,7 +859,7 @@ def send(number, amount, worker_amount):
     restart()
 
 def watermark():
-    print("SMS Tool MFTROLL. İletişim: MFTROLL ")
+    print("SMS Tool by coder senic . İletişim: t.me/HackersMindset ")
 
 def get_number():
     global clear
