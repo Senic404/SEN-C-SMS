@@ -4,7 +4,7 @@
 
 import subprocess, sys, os
 os.system("pkg install figlet")
-os.system("Clear")
+os.system("clear")
 os.system("figlet senic sms")
 try:
     import requests, urllib3, uuid
