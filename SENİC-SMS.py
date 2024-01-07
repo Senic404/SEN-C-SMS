@@ -859,7 +859,7 @@ def send(number, amount, worker_amount):
     restart()
 
 def watermark():
-    print("SMS Tool by coder senic . İletişim: t.me/HackersMindset ")
+    print("SMS Tool by coder senic . İletişim: t.me/siberImpact ")
 
 def get_number():
     global clear
